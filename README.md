@@ -32,6 +32,7 @@
    
 ### 示例
 -----------
-
+命令：get example.avi [客户端下载](/images/client.png)<br>
+[服务端信息](/images/server.png)
 
 
