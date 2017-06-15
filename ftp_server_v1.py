@@ -190,7 +190,7 @@ class MyTCPServer(socketserver.BaseRequestHandler):
 			self.request.send(self.cur_dir[3:].encode())		# 发送的是相对路径
 		else:
 			print("不允许访问")
-			self.request.send(b"No access permissions")			# 不允许访问
+			self.request.send(b"No access permissions")			# 不允许访问.
 		
 
 
