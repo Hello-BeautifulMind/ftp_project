@@ -8,7 +8,7 @@
 
 ### 环境介绍
 -----------
-* Python -- one of the following:
+* OS and Python:
 
   - Windows 10
   - Python 3.5.1
