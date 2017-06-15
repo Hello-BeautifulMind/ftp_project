@@ -11,7 +11,7 @@ import socketserver, os, hashlib, re, subprocess
 class MyTCPServer(socketserver.BaseRequestHandler):
 	'''
 	handle:
-	1）死循环，提示相关信息
+	1）死循环，提示相关信息.
 	2）验证客户账户和密码
 	3）拆分指令，获取指令和文件名，判断文件是否存在，做相应处理
 	4）发送文件大小
